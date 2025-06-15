@@ -29,7 +29,7 @@ A simple yet powerful task management application built with **Flutter** that al
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/taskmate.git
+git clone https://github.com/shivapardheep/TaskMate.git
 cd taskmate
 
 # Get all Flutter dependencies
