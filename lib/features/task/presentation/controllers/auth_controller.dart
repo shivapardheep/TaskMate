@@ -11,7 +11,6 @@ class AuthController extends GetxController {
   String? error;
 
   Future<void> signUp(String email, String password) async {
-    if (!_validateInput(email, password)) return;
     isLoading = true;
     error = null;
     update();
@@ -29,7 +28,6 @@ class AuthController extends GetxController {
   }
 
   Future<void> login(String email, String password) async {
-    if (!_validateInput(email, password)) return;
     isLoading = true;
     error = null;
     update();
@@ -49,18 +47,6 @@ class AuthController extends GetxController {
   Future<void> signOut() async {
     await _authService.signOut();
     Get.offAll(() => LoginScreen());
-  }
-
-  bool _validateInput(String email, String password) {
-    if (email.isEmpty || !GetUtils.isEmail(email)) {
-      Get.snackbar('Error', 'Invalid email');
-      return false;
-    }
-    if (password.length < 6) {
-      Get.snackbar('Error', 'Password must be at least 6 characters');
-      return false;
-    }
-    return true;
   }
 
   User? get currentUser => _authService.currentUser;
