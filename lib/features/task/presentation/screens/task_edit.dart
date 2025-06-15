@@ -20,6 +20,7 @@ class TaskEditScreen extends StatelessWidget {
     }
 
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         leading: InkWell(
           onTap: () => Get.back(),
@@ -47,7 +48,7 @@ class TaskEditScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(12),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.grey.withOpacity(0.15),
+                        color: Colors.grey.withOpacity(0.5),
                         blurRadius: 8,
                         offset: const Offset(0, 4),
                       ),
@@ -72,7 +73,7 @@ class TaskEditScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(12),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.grey.withOpacity(0.15),
+                        color: Colors.grey.withOpacity(0.5),
                         blurRadius: 8,
                         offset: const Offset(0, 4),
                       ),
