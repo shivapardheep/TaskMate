@@ -39,9 +39,10 @@ A simple yet powerful task management application built with **Flutter** that al
 * flutter run
 
 ### 📸 Screenshots
-![login](https://github.com/user-attachments/assets/d3b83119-da02-42d5-a4e3-4580fd50fba6)
-![tasjPage](https://github.com/user-attachments/assets/3830c940![edit page](https://github.com/user-attachments/assets/ea4c0678-d5f3-412f-a8d2-0b1c1643955f)
--4fff-4502-bd03-bd4972fdca8c)
+
+
+
+
 
 
 
