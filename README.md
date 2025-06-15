@@ -39,7 +39,7 @@ A simple yet powerful task management application built with **Flutter** that al
 * flutter run
 
 ### 📸 Screenshots
-https://github.com/shivapardheep/TaskMate/blob/01479bf0832c25c3d98a1f42e8daf7845e5622d3/tasjPage.png
+<img src="https://github.com/shivapardheep/TaskMate/blob/01479bf0832c25c3d98a1f42e8daf7845e5622d3/tasjPage.png" width="300"/>
 
 
 
